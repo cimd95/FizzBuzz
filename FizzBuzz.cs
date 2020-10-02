@@ -6,7 +6,8 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 100; i++)
+            Int32.TryParse(Console.ReadLine(), out int n);
+            for (int i = 1; i <= n; i++)
             {
                 string str = "";
                 if (i % 3 == 0)
